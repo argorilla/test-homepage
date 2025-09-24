@@ -1,6 +1,6 @@
 # WordPress Homepage Test
 
-This repository contains my skill test project: a custom **WordPress homepage** based on a given [Figma design](https://www.figma.com/design/JRU7syeOq0e7hDd3corwP2/Test-File?node-id=1342-1740).  
+This repository contains the **company profile homepage** for **Maju Agency**, implemented as the WordPress **front page** (`front-page.php`) based on a given [Figma design](https://www.figma.com/design/JRU7syeOq0e7hDd3corwP2/Test-File?node-id=1342-1740).  
 The live demo is deployed on **Netlify**.
 
 ## 🚀 Demo
@@ -10,16 +10,15 @@ The live demo is deployed on **Netlify**.
 - Custom WordPress theme (`wp-content/themes/customgoo/`)
 - Responsive layout following the provided design
 - Clean structure with assets separated (CSS, JS, images, fonts)
-- **Custom Post Types (CPT)** created via plugin
+- **Custom Post Types (CPT)** registered manually in `functions.php`
 - **Advanced Custom Fields (ACF)** used for flexible content management
 
 ## 🛠️ Tech Stack
 - **WordPress** (base CMS)
-- **PHP** (theme template)
+- **PHP** (theme templates & CPT registration)
 - **CSS** for styling
 - **JavaScript** for interactivity
 - **ACF Plugin** for custom fields
-- **Custom CPT Plugin** for additional post types
 
 ## 📂 Project Structure
 ```
