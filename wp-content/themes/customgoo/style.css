@@ -1,0 +1,14 @@
+/*
+Theme Name: Custom Goo Theme
+Theme URI: http://localhost/custom-goo-theme
+Author: Raden Argo
+Author URI: http://localhost
+Description: Starter theme for slicing Figma design
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: custom-goo-theme
+*/
+
+body {
+    margin: 0;
+}
